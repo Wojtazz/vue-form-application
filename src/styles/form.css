@@ -1,0 +1,171 @@
+.sectionTitle {
+    margin-bottom: -3px;
+    color: royalblue;
+}
+
+.form {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: left;
+    width: 700px;
+    height: 700px;
+}
+
+.section {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.formInput {
+    grid-column: 2 / 3;
+    width: 350px;
+    max-width: 350px;
+    height: 25px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.textfieldInput {
+    width: 350px;
+    height: 120px;
+    max-width: 350px;
+    max-height: 120px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.hintAlign {
+    margin-bottom: -10px;
+}
+
+.fieldDiv {
+    margin-bottom: 10px;
+}
+
+.dataInput {
+    max-width: 150px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.timeInput {
+    height: 25px;
+    max-width: 60px;
+    margin-left: 10px;
+}
+
+.numberInput {
+    max-width: 60px;
+    height: 25px;
+    text-align: center;
+}
+
+.selectInput {
+    width: 350px;
+    height: 25px;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 16px;
+}
+
+.inputLabel {
+    grid-column: 1 / 2;
+    color: steelblue;
+    margin-top: 6px;
+}
+
+.customFont {
+    font-size: 12px;
+}
+
+.customBorder {
+    border: 1px solid lightgrey;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+select:required:invalid {
+    color: gray;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+input[type="radio"] {
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+option {
+    color: black;
+    background-color: lightgray;
+}
+
+.employeeOption {
+    margin: 30px;
+}
+
+.employeeOption:checked {
+    padding-left: 26px;
+    background-image: url("../icons/baseline_done_black_18dp.png");
+    background-repeat: no-repeat;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.outsideDiv {
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+.radioLabel {
+    margin-right: 10px;
+}
+
+.feeInput {
+    max-width: 60px;
+    padding-left: 5px;
+    height: 25px;
+}
+
+.marginLabel {
+    margin-right: 10px;
+}
+
+.hintParagraph {
+    font-size: 10px;
+    color: lightgrey;
+}
+
+.hintWrapper {
+    max-width: 360px;
+}
+
+.submitButton {
+    border: none;
+    color: white;
+    background-color: darkorange;
+    font-size: 11px;
+    width: 130px;
+    height: 40px;
+}
+
+.fieldSet {
+    display: flex;
+    position: relative;
+    width: 500px;
+}
+
+.requiredMark {
+    color: red;
+}
