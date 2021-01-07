@@ -26,7 +26,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Vue router
 
 ```
-Application has two paths, localhost:8080/form with form and localhost:8080/success with success message
+Application has two paths, 
+localhost:8080/form with form
+localhost:8080/success with success message
 ```
 
 ### Summary
